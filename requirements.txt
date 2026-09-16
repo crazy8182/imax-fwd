@@ -1,0 +1,14 @@
+pyrofork
+motor
+TgCrypto
+Dnspython
+datetime
+pytz
+
+#----app.py----#
+Flask
+gunicorn
+setuptools
+Jinja2
+werkzeug
+itsdangerous
