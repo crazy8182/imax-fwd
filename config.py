@@ -11,7 +11,7 @@ class Config:
 
     PICS = (environ.get('PICS', 'https://files.catbox.moe/uevfz8.jpg'))
     
-    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://devashibambhava0:devashibambhava0@cluster0.ux6amy9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://mahesh12:mahesh12@cluster0.hscxg.mongodb.net/?appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782'))
