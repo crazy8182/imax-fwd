@@ -15,7 +15,7 @@ class Config:
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782'))
-    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", '-1003733458580') # FORCE SUB channel link 
+    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "https://t.me/imaxmoviehub") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
 
